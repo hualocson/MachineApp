@@ -32,16 +32,18 @@ def reference_section():
 
         [Fruit Recognition](https://github.com/Spidy20/Fruit_Vegetable_Recognition)
 
-        [Money Classify](https://github.com/thangnch/MiAI_Money_Classify)
+        [Handwriting Recognition](https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format)
+
+        [Weather](https://github.com/ColonelAVP/Weather-App)
         """
 
 def ourteam_section():
     ct.display_header_section("Our Team")
     return f"""
         <div class="container">
-            {card_profile("https://cdn.pixabay.com/photo/2022/02/20/13/57/avatar-7024608_1280.png", "Hua Loc Son", "20110712", "Triển khai bài chữ viết tay")}
-            {card_profile("https://cdn.pixabay.com/photo/2022/02/20/14/01/avatar-7024621__480.png", "Nguyen Minh Chien", "20110615", "Triển khai bài dự đoán giá xe cũ")}
-            {card_profile("https://cdn.pixabay.com/photo/2022/02/20/13/59/avatar-7024613__480.png", "Nguyen Hung Khang", "20110658", "Triển khai bài dự báo thời tiết và nhận diện trái cây")}
+            {card_profile("https://cdn.pixabay.com/photo/2022/02/20/13/57/avatar-7024608_1280.png", "Hứa Lộc Sơn", "20110712", "Triển khai bài chữ viết tay")}
+            {card_profile("https://cdn.pixabay.com/photo/2022/02/20/14/01/avatar-7024621__480.png", "Lương Minh Chiến", "20110615", "Triển khai bài dự đoán giá xe cũ")}
+            {card_profile("https://cdn.pixabay.com/photo/2022/02/20/13/59/avatar-7024613__480.png", "Nguyễn Hưng Khang", "20110658", "Triển khai bài dự báo thời tiết và nhận diện trái cây")}
         </div>
     """
 
